@@ -1,0 +1,45 @@
+# Node modules (backend/frontend dependencies)
+node_modules/
+ORSProject10-UI/node_modules/
+
+# Build output
+dist/
+build/
+
+# Runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend.log
+
+# OS/IDE-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Angular output
+ORSProject10-UI/dist/
+ORSProject10-UI/.angular/cache/
+
+# Cache folders
+.cache/
+ORSProject10-UI/.cache/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage reports
+coverage/
+
+# Lock files (optional)
+package-lock.json
+yarn.lock
