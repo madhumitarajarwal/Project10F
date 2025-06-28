@@ -44,17 +44,19 @@
   }
 </style>
 
-<div class="row" style="padding: 2% 0; background: url(assets/files/bg6000.jpg) no-repeat center center; background-attachment: fixed; background-size: cover; width: 100%; height: auto;">
+<div class="row" style="padding: 2% 0;  background-attachment: fixed; background-size: cover; width: 100%; height: auto;">
   <div class="col-sm-4"></div>
   <div class="col-sm-4"
     <div class="card">
       <div class="card-body input-group-addon grad">
         <form name="userForm">
 
-          <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold text-center">{{ 'Add myy Patient ' | translate }}
+
+          <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold text-center">{{ 'Add  Patient ' | translate }}
           </h2>
           <h2 *ngIf="form.data.id" class="text-primary font-weight-bold text-center">{{ 'Update Patient' | translate }}
           </h2>
+
 
 
           <div *ngIf="!form.error && form.message" class="alert alert-success alert-dismissible">
@@ -134,7 +136,6 @@
   </div>
   <div class="col-sm-4"></div>
 </div>
-
 
 
 <app-footer></app-footer>
